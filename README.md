@@ -20,7 +20,9 @@
 
 ## Building and running the project
 ```
-mkdir build && cd build
+cd dat/yolo/
+wget https://pjreddie.com/media/files/yolov3.weights
+kdir build && cd build
 cmake ..
 make
 ./3D_object_tracking
